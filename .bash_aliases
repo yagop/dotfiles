@@ -8,6 +8,7 @@ alias untarbz1="tar jxvf"
 alias ll='ls -halt --color=auto'
 alias grep='grep -n --color=auto'
 alias ip='ip -c'
+alias npx='npx --cache=/tmp/.npx'
 
 if [[ -x "$(command -v rpm)" ]]; then
   alias atom-upgrade="sudo rpm -i -U -v --hash https://atom.io/download/rpm && apm upgrade -c=false"
